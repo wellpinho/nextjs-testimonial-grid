@@ -1,17 +1,21 @@
-import { Testimonials1, Testimonials2 } from "./components/testimonials";
+import { Testimonials1, Testimonials2, Testimonials3 } from "./components/testimonials";
 
 export default function Home() {
   return (
     <main className="
       container 
       mx-auto
-      max-w-7xl
-      p-2
-      md:p-10
     ">
-      <div className="text-white">
+      <div className="
+        text-white  
+          md:p-10   
+          md:flex
+          md:flex-row
+          justify-between
+        ">
         <Testimonials1 />
         <Testimonials2 />
+        <Testimonials3 />
       </div>
     </main>
   )
