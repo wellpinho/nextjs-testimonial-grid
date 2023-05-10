@@ -2,7 +2,8 @@ import {
   Testimonials1, 
   Testimonials2, 
   Testimonials3, 
-  Testimonials4 
+  Testimonials4, 
+  Testimonials5
 } from "./components/testimonials";
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
         <Testimonials2 />
         <Testimonials3 />
         <Testimonials4 />
+        <Testimonials5 />
       </div>
     </main>
   )

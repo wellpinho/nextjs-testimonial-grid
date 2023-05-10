@@ -164,3 +164,41 @@ export const Testimonials4 = () => {
         </div>
     )
 }
+
+export const Testimonials5 = () => {
+    return (
+        <div className="p-10 rounded-xl bg-gray-900 m-1">
+            <div className="flex space-x-4">
+                <Image className="
+                    w-10
+                    h-10
+                    rounded-full
+                    ring-2
+                    ring-purple-300
+                "
+                width={100}
+                height={100}
+                src="/images/image-patrick.jpg"
+                alt="" />
+
+                <div className="text-sm">
+                    <h4 className="opacity-90">Patrick Abrams</h4>
+                    <p className="opacity-50">Verified Graduate</p>
+                </div>
+            </div>
+
+            <p className="mt-6 text-xl">
+                Awesome teaching support from TAs who did the bootcamp themselves. 
+                Getting guidance from them and learning from their experiences was easy.
+            </p>
+
+            <p className="mt-6 opacity-50">
+                &quot;The staff seem genuinely concerned about my progress which I find really 
+                refreshing. The program gave me the confidence necessary to be able to go out 
+                in the world and present myself as a capable junior developer. The standard is 
+                above the rest. You will get the personal attention you need from an incredible
+                community of smart and amazing people.&quot;
+            </p>
+        </div>
+    )
+}
