@@ -1,4 +1,4 @@
-import { Testimonials1 } from "./components/testimonials";
+import { Testimonials1, Testimonials2 } from "./components/testimonials";
 
 export default function Home() {
   return (
@@ -11,6 +11,7 @@ export default function Home() {
     ">
       <div className="text-white">
         <Testimonials1 />
+        <Testimonials2 />
       </div>
     </main>
   )
