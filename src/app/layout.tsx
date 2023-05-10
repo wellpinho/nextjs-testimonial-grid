@@ -1,7 +1,10 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Barlow } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Barlow({
+  weight: ['400', '700', '900'],
+  subsets: ['latin'] 
+})
 
 export const metadata = {
   title: 'Testimonials Examples',

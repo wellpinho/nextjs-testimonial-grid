@@ -1,7 +1,17 @@
+import { Testimonials1 } from "./components/testimonials";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1>hello world</h1>
+    <main className="
+      container 
+      mx-auto
+      max-w-7xl
+      p-2
+      md:p-10
+    ">
+      <div className="text-white">
+        <Testimonials1 />
+      </div>
     </main>
   )
 }
