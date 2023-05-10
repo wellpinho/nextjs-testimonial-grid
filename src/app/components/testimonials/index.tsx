@@ -130,3 +130,37 @@ export const Testimonials3 = () => {
         </div>
     )
 }
+
+export const Testimonials4 = () => {
+    return (
+        <div className="p-10 rounded-xl text-gray-900 bg-white m-1">
+            <div className="space-x-4">
+                <Image className="
+                    w-10
+                    h-10
+                    rounded-full
+                    ring-2
+                    ring-purple-300
+                "
+                width={100}
+                height={100}
+                src="/images/image-jeanette.jpg"
+                alt="" />
+
+                <div className="text-sm">
+                    <h4 className="opacity-90">Jeanette Harmon</h4>
+                    <p className="opacity-50">Verified Graduate</p>
+                </div>
+            </div>
+
+            <p className="mt-6 text-xl">
+                An overall wonderful and rewarding experience
+            </p>
+
+            <p className="mt-6 opacity-50">
+            &quot;Thank you for the wonderful experience! I now have a job I really enjoy, 
+            and make a good living while doing something I love.&quot;
+            </p>
+        </div>
+    )
+}

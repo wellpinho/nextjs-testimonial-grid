@@ -1,4 +1,9 @@
-import { Testimonials1, Testimonials2, Testimonials3 } from "./components/testimonials";
+import { 
+  Testimonials1, 
+  Testimonials2, 
+  Testimonials3, 
+  Testimonials4 
+} from "./components/testimonials";
 
 export default function Home() {
   return (
@@ -16,6 +21,7 @@ export default function Home() {
         <Testimonials1 />
         <Testimonials2 />
         <Testimonials3 />
+        <Testimonials4 />
       </div>
     </main>
   )
