@@ -2,7 +2,13 @@ import Image from "next/image"
 
 export const Testimonials1 = () => {
     return (
-        <div className="relative p-10 rounded-xl bg-purple-700 m-1">
+        <div className="
+            relative 
+            p-10 
+            rounded-xl 
+            bg-purple-700 
+            md:col-span-2
+        ">
             <Image className="
                 absolute
                 top-3
@@ -56,7 +62,7 @@ export const Testimonials1 = () => {
 
 export const Testimonials2 = () => {
     return (
-        <div className="p-10 rounded-xl bg-gray-600 m-1">
+        <div className="p-10 rounded-xl bg-gray-600">
             <div className="flex space-x-4">
                 <Image className="
                     w-10
@@ -91,7 +97,7 @@ export const Testimonials2 = () => {
 
 export const Testimonials3 = () => {
     return (
-        <div className="hidden md:block p-10 text-gray-900 rounded-xl bg-white m-1">
+        <div className="md:row-span-2 p-10 text-gray-900 rounded-xl bg-white">
             <div className="flex space-x-4">
                 <Image className="
                     w-10
@@ -133,8 +139,8 @@ export const Testimonials3 = () => {
 
 export const Testimonials4 = () => {
     return (
-        <div className="p-10 rounded-xl text-gray-900 bg-white m-1">
-            <div className="space-x-4">
+        <div className="p-10 rounded-xl text-gray-900 bg-white">
+            <div className="flex space-x-4">
                 <Image className="
                     w-10
                     h-10
@@ -167,7 +173,7 @@ export const Testimonials4 = () => {
 
 export const Testimonials5 = () => {
     return (
-        <div className="p-10 rounded-xl bg-gray-900 m-1">
+        <div className="p-10 rounded-xl bg-gray-900 md:col-span-2">
             <div className="flex space-x-4">
                 <Image className="
                     w-10
@@ -198,6 +204,48 @@ export const Testimonials5 = () => {
                 in the world and present myself as a capable junior developer. The standard is 
                 above the rest. You will get the personal attention you need from an incredible
                 community of smart and amazing people.&quot;
+            </p>
+        </div>
+    )
+}
+
+export const Testimonials6 = () => {
+    return (
+        <div className="md:hidden p-10 text-gray-900 rounded-xl bg-white md:">
+            <div className="flex space-x-4">
+                <Image className="
+                    w-10
+                    h-10
+                    rounded-full
+                    ring-2
+                    ring-purple-300
+                "
+                width={100}
+                height={100}
+                src="/images/image-kira.jpg"
+                alt="" />
+
+                <div className="text-sm">
+                    <h4 className="opacity-90">Kira Whittle</h4>
+                    <p className="opacity-50">Verified Graduate</p>
+                </div>
+            </div>
+
+            <p className="mt-6 text-xl">
+                Such a life-changing experience. Highly recommended!
+            </p>
+
+            <p className="mt-6 opacity-50">
+                &quot;Before joining the bootcamp, I&apos;ve never written a line of code. 
+                I needed some structure from professionals who can help me learn programming 
+                step by step. I was encouraged to enroll by a former student of theirs who can 
+                only say wonderful things about the program. The entire curriculum and staff 
+                did not disappoint. They were very hands-on and I never had to wait long for 
+                assistance. The agile team project, in particular, was outstanding. It took my 
+                learning to the next level in a way that no tutorial could ever have. In fact, 
+                I&apos;ve often referred to it during interviews as an example of my developent 
+                experience. It certainly helped me land a job as a full-stack developer after 
+                receiving multiple offers. 100% recommend!&quot;
             </p>
         </div>
     )

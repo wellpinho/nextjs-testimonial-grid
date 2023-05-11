@@ -19,5 +19,5 @@ module.exports = {
       backgroundImage: {},
     },
   },
-  plugins: [],
+  plugins: []
 }

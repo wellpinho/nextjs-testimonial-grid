@@ -3,7 +3,8 @@ import {
   Testimonials2, 
   Testimonials3, 
   Testimonials4, 
-  Testimonials5
+  Testimonials5,
+  Testimonials6
 } from "./components/testimonials";
 
 export default function Home() {
@@ -15,7 +16,11 @@ export default function Home() {
       <div className="
         text-white  
           md:p-10   
-          md:flex
+          grid
+          gap-3
+          grid-cols-1
+          md:grid-cols-4
+          md:grid-rows-2
           md:flex-row
           justify-between
         ">
@@ -24,6 +29,7 @@ export default function Home() {
         <Testimonials3 />
         <Testimonials4 />
         <Testimonials5 />
+        <Testimonials6 />
       </div>
     </main>
   )
