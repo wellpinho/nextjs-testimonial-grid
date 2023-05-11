@@ -12,6 +12,7 @@ export default function Home() {
     <main className="
       container 
       mx-auto
+      p-2
     ">
       <div className="
         text-white  
